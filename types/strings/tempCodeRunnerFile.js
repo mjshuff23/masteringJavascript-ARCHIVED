@@ -1,8 +1,12 @@
-// Strings can be created with single quotes, double quotes, or backticks for interpolation
-let firstName = 'Michael';
-const lastName = "Shuff";
-let age = `33`;
+let firstName = "Michael";
+let lastName = "Shuff";
+let fullName = firstName + " " + lastName;
+let fatherName = "David Shuff";
+let bestFriendName = "Justin Cappellini";
 
-// Strings have indexes, which start at 0
-console.log(age[0]);     // 3
-console.log(firstName[5]);      // 'e'
+
+// `str.endsWith(searchString[, length])` determines whether a string ends with the characters of a specified string, returning true or false as appropriate.
+// `str.startsWith(searchString[, length])` does the same thing except from the beginning
+
+console.log(fullName.length);
+console.log(fullName.startsWith('Michael', 7));

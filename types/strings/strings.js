@@ -1,9 +1,12 @@
+// Strings are useful for holding a string of characters, and JavaScript has many useful methods for interacting with and modify strings.  Strings are a primitive type, which means they're immutable.  Strings have a `length` property and an array of methods for searching and grabbing specific parts of the string.
+
 // Strings can be created with single quotes, double quotes, or backticks for interpolation
 let firstName = 'Michael';
 const lastName = "Shuff";
 let age = `33`;
 
-// Strings have indexes, which start at 0
+// Strings have indexes, which start at 0.  These can be accessed with bracket notation or the much less often used charAt() method.
+console.log((age.charAt(1)));
 console.log(age[0]);            // 3
 console.log(firstName[5]);      // 'e'
 
