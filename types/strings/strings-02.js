@@ -37,3 +37,6 @@ console.log('hey'.codePointAt(1));
 console.log(myName.concat(', ', fatherName, ', and ', bestFriend));
 // You can also just use the `+` operator for this, and this is the preferred method
 console.log(myName + ', ' + fatherName + ', and ' + bestFriend);
+
+
+console.log(null === undefined);
